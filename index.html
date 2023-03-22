@@ -5,8 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>HTML Tables</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+      body {
+        height: 500px;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(237, 244, 244);
+        font-size: 16px;
+      }
+      td:nth-of-type(1){
+        background-color: rgb(179, 244, 244);
+        color: rgb(98, 98, 179);
+      }
+      td:nth-of-type(2){
+        color: rgb(98, 98, 179);
+      }
+      th {
+        font-size: 20px; 
+        font-weight: bolder;
+        background-color: rgb(235, 219, 235);
+      }
+      
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+
+table{
+  height: 400px;
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 50px;
+
+}
+</style>
+    
   </head>
   <body>
-    <!-- Write your HTML here -->
+
+    <table>
+      <tr>
+        <th>City</th>
+        <th>State</th>
+        <th>2017 estimate</th>
+      </tr>
+      <tr>
+        <td> New York</td>
+        <td>New York</td>
+        <td>8,622,698</td>
+      </tr>
+      <tr>
+        <td>Los Angeles</td>
+        <td>California</td>
+        <td>3,999,759</td>
+      </tr>
+      <tr>
+        <td>Chikago</td>
+        <td>lllinis</td>
+        <td>2,716,450</td>
+      </tr>
+      <tr>
+        <td>Houston</td>
+        <td>Texas</td>
+        <td>2,312,717</td>
+      </tr>
+    </table>
+    
+ 
   </body>
 </html>
